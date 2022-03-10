@@ -1,0 +1,83 @@
+ion-content {
+    --overflow: hidden;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+.content {
+    --background: url("/assets/img/MAPIMO-bg-main.png") 0 0/100% 100% no-repeat
+   }
+   
+
+  .swiper-slide {
+    display: block;
+    height: 200px;
+  }
+
+  .swiper-slide h2 {
+    margin-top: 2.8rem;
+  }
+
+  .swiper-slide img {
+    margin: 200px 0 40px;
+    pointer-events: none;
+    height: 80px;
+        width: 184px;
+        box-shadow: 0 7px 7px -4px rgba(182,215,218,0.24);
+  }
+
+ 
+
+  .explore-maps {
+    color: #2C3546;
+    font-family: "General Sans";
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 32px;
+    text-align: center!important;
+    margin-top: 64px;
+  }
+  .your-own-emotion-rep {
+    height: 24px;
+    
+    color: #2C3546;
+    font-family: "General Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+  }
+  .with-a-different-per {
+    height: 24px;
+    width: 272px;
+    color: #2C3546;
+    font-family: "General Sans";
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+  }
+  .type-something {
+    height: 22px;
+    width: 141.27px;
+    color: #2C3546;
+    font-family: "General Sans";
+    font-size: 14px;
+    font-weight: 500px;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: right;
+    margin-top: 50px;
+  }
+    .group {
+        height: 500px;
+       
+      }
+  
+     
+  ion-slides {
+    --bullet-background:grey;
+    --bullet-background-active: #2C3546;
+}
